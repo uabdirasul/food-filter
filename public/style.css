@@ -29,3 +29,28 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
+
+.card-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 15rem;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #a47d5d;
+  padding: 0.5rem;
+  border-radius: 8px;
+}
+
+.card-img {
+  width: 100%;
+  height: 10rem;
+  border-radius: 1px;
+}

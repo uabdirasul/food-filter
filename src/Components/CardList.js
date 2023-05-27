@@ -5,7 +5,7 @@ import { food } from "../food";
 class CardList extends Component {
   render() {
     return (
-      <div>
+      <div className="card-list">
         {food.map((food, index) => {
           return (
             <Card
