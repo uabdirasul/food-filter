@@ -5,7 +5,7 @@ html {
 body {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   height: 100%;
   padding: 0;
@@ -16,6 +16,8 @@ body {
   overflow-x: hidden;
   height: 100vh;
   background-color: #e0c68b;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #252320;
 }
 
 img {
@@ -28,6 +30,12 @@ img {
   max-width: 70rem;
   margin-left: auto;
   margin-right: auto;
+}
+
+.site-header {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
 }
 
 .card-list {
