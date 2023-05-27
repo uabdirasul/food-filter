@@ -17,7 +17,6 @@ class App extends React.Component {
     this.setState({
       searchField: value,
     });
-    console.log(value);
   };
 
   render() {
